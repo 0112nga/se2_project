@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #263948;
+}
+#example_filter input{
+    border-radius: 20px;
+}
+/* .pagination  */
+#filtertable_previous a, #filtertable_next > a{
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#filtertable_paginate > ul > li.paginate_button.page-item.active{
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+}
+#filtertable_paginate > ul > li.paginate_button.page-item.active > a{
+    border-radius: 20px;
+    width: 30px;
+    margin-left: 10px;
+    background-color: white;
+    border-color: #25aae1;
+    color: #25aae1;
+    font-weight: bold;
+}
+#filtertable_paginate > ul > li:nth-child(n) > a{
+    border-radius: 20px;
+    width: fit-content;
+    margin-left: 10px;
+}
+.overflowtext{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+}
+.page-link{
+    color: #25aae1;
+}
+#example_length > label > select{
+    border-radius: 20px;
+    border-color: #25aae1;
+}
+.mode{
+    border-radius: 1rem;
+    padding: 4px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.4px;
+    background-color: teal;
+}
+.mode-active1{
+    background-color: #19936a;
+    color: white;
+}
+.mode-active2{
+    background-color: #ffb550;
+}
+.mode-off{
+    border-radius: 1rem;
+    padding: 4px 20px;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+}
+.hidden{
+    display: none;
+}
+div.MTablePaginationInner-root-14{
+    /* border-radius: 40px;
+    background-color:#ffb550 ; */
+    margin: 10px;
+    color: #19936a;
+}
+.product-img{
+    max-width: 130px;
+    max-height: 130px;
+    object-fit: cover;
+}
+div.MTableToolbar-title-9 > h6{
+    font-Family:'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+div.Component-horizontalScrollContainer-12 > div > div > div > table > thead > tr > th:nth-child(n) > span{
+    font-Family:'Noto Sans SC', sans-serif;
+}
+div.Component-horizontalScrollContainer-12 > div > div > div > table > tbody > tr:nth-child(n) > td:nth-child(n){
+    font-Family:'Noto Sans SC', sans-serif;
+}
+div.Component-horizontalScrollContainer-12 > div > div > div > table > tbody > tr:nth-child(n) > td:nth-child(3){
+    font-Family:'Noto Sans SC', sans-serif;
+    padding-right: 0px;
+}
+
+.card{
+    width: 150px;
+    max-height: 120px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #00875a;
+    padding: 0;
+    /* margin-left: 150px; */
+    margin-top: 10px;
+    margin-right: 45px;
+    text-decoration: none;
+    box-shadow: 5px 10px 10px #d9e6e2;
+}
+.card::before{
+    content: "";
+    border-top: solid 80px #0e9263;
+    border-radius: 40px 40px 100% 0px;
+}
+.card-item{
+    max-width: 180px;
+    border-top: solid 2px white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    color: white;
+    transform: translate(20px, -55px);
+}
+.card-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    transform: translate(20px, -60px);
+}
+.chart-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #d9e6e2;
+    transform: translate(50px, -60px);
+}
+.chart-text2{
+    font-size: 28px;
+    color:white;
+    font-weight: bold;
+    transform: translate(50px, -330px);
+}
+.sub-text{
+    transform: translate(45px, -315px);
+    display: inline-flex;
+    margin-right: 85px;
+}
+.sub-text2{
+    font-size: 15px;
+    font-weight: bold;
+    color:#92cbb7;
+    text-align: center;
+}
+.sub-text3{
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    transform: translate(0px, -7px);
+}
+.card-icon{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    transform: translate(-20px, -60px);
+}
+.total-item{
+    transform: translate(20px, -40px);
+    border-top: none;
+    color:#d9e6e2;
+}
+.quantity-card{
+    width: 150px;
+    max-height: 120px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #d9e6e2;
+    padding: 0;
+    /* margin-left: 150px; */
+    margin-top: 10px;
+    margin-right: 45px;
+    text-decoration: none;
+    box-shadow: 5px 10px 10px #ecf3f1;
+}
+.quantity-text{
+    font-size: 28px;
+    font-weight: bold;
+    color: #263948;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.quantity-icon{
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #263948;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.quantity-item{
+    max-width: 180px;
+    border-top: solid 2px #263948;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    color: #263948;
+    margin-left: 20px;
+}
+.card-chart{
+    position: relative;
+    max-height: 400px;
+    width: 350px ;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #00875a;
+    padding: 0;
+    /* margin-left: 150px; */
+    margin-top: 20px;
+    text-decoration: none;
+    box-shadow: 5px 20px 10px #d9e6e2;
+}
+.card-chart::before{
+    content: "";
+    border-top: solid 200px #0e9263;
+    border-radius: 40px 40px 100% 0px;
+}
+.recharts-wrapper{
+    transform: translate(-50px, -250px);
+}
+.product-img{
+    max-width: 250px;
+    max-height: 250px;
+    padding: 10px;
+    border: solid 1px #d9e6e2;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.product-text{
+    font-size: 18px;
+    color:#263948;
+    font-weight:bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: solid 2px #b9bbbd;
+}
+.product-title{
+    font-size: 15px;
+    color:#6a7074;
+    font-weight:bold;
+}
+/* Reserves are profits and ggains that have been made by the company and that still form part of the shareholders */
