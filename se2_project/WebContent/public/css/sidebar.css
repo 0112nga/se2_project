@@ -1,0 +1,125 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 100px;
+    background-color: #eff2fb;
+    overflow-x: hidden;
+    transition: ease 0.5s;
+    
+  }
+  .sidemenu {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20%;
+    transform: translateY(-20%);
+    border: none;
+  }
+  .sidemenu a {
+    padding: 15px 38px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #1d1d1d;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .sidemenu a:hover, .closebtn:hover{
+    background: -webkit-linear-gradient( #25aae1, #40e495);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .closebtn {
+    position: absolute;
+    right: 36px;
+    font-size: 36px;
+    margin-left: 50px;
+    transform: translateY(-5px) translateX(10px);
+    color: #051d4b;
+  }
+  #dashboard{
+    color: #051d4b;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    
+  }
+  #supply-chain-management-icon{
+    max-width: 60px;
+    max-height: 60px;
+    object-fit: cover;
+    padding: 8px ;
+  }
+  a #supply-chain-management-icon{
+    margin: 12px 20px;
+  }
+  .supply-chain-management{
+    position: fixed;
+  }
+  .dashboard{
+    position: absolute;
+    border-bottom: solid 2px #dee0e9;
+    display: flex;
+    align-items: center;
+    padding: 24px 20px;
+    width: 100%;
+    background-color: #edf0f7;
+  }
+  .sidemenu div{
+    transition: ease-in 0.3s;
+  } 
+  .active{
+    width: 300px;
+    background-color:#eff2fb;
+    transition: ease-in-out 0.5s;
+  }
+  .sidemenu-item-active{
+    background-color: #eff2fb;
+  }
+  .navbar {
+    border-bottom: solid 2px #dee0e9;
+    width: 100%;
+    display: flex;
+    padding: 22px;
+    position: absolute;
+  }
+  .navbar #search {
+    margin-left: auto;
+  }
+  #search-box{
+    border-radius: 10px;
+  }
+  #search button i{
+    transform: translateX(-40px);
+  }
+  .sidenav ul{
+    margin-top: 50%;
+    list-style: none;
+    padding: 0;
+  }
+  .sidenav ul li{
+    padding: 22px 20px;
+    font-size: 20px;
+    border-bottom: solid 2px #dee0e9;
+  }
+  .sidenav ul li a{
+    margin: 0;
+    text-decoration: none;
+    color: #051d4b;
+  }
+  .sidenav{
+    border-right: solid 2px #dee0e9;
+  }
+  @media screen and (max-height: 450spx) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
